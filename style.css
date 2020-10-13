@@ -12,9 +12,9 @@ button {
 	padding: 0;
 }
 .header {
-	background-color: black;
+    position: fixed;
+    background-color: black;
 	color: white;
-	position: fixed;
 	width: 100%;
 	text-align: center;
 	z-index: 2;
