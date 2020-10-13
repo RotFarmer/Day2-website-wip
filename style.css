@@ -60,7 +60,7 @@ button {
 	font-family: "Inconsolata", monospace;
 	background-color: yellow;
 }
-.circle-container {
+.circle-box {
 	height: 300px;
 	border: 1px dashed #6c63ff;
 	border-radius: 10px;
