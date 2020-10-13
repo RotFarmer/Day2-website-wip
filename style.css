@@ -1,3 +1,7 @@
+@font-face {
+	font-family: neon;
+	src: url(webfonts/neon2.ttf);
+}
 body,
 h1,
 h2,
