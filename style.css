@@ -1,0 +1,85 @@
+body,
+h1,
+h2,
+h3,
+p,
+button {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	background-color: black;
+	color: white;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+	font-family: neon;
+	font-size: 36px;
+	padding: 10px;
+}
+.splash {
+	background-color: black;
+	height: 100vh;
+}
+.image {
+	width: 50%;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.main {
+	background-color: #cccccc;
+	padding: 10px;
+	font-family: "Roboto", sans-serif;
+}
+.main h2:nth-child(n + 2) {
+	margin-top: 10px;
+}
+.example {
+	background-color: white;
+	border: 1px solid #6c63ff;
+	border-radius: 10px;
+	padding: 10px;
+}
+.example h3:nth-child(n + 2) {
+	margin-top: 10px;
+}
+.padding {
+	padding: 10px;
+}
+.margin {
+	margin: 10px;
+}
+.relative {
+	position: relative;
+	bottom: 5px;
+}
+.code {
+	font-family: "Inconsolata", monospace;
+	background-color: yellow;
+}
+.circle-container {
+	height: 300px;
+	border: 1px dashed #6c63ff;
+	border-radius: 10px;
+	position: relative;
+}
+.circle1 {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.circle2 {
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
